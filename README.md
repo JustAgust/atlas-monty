@@ -60,4 +60,4 @@ Chase Sparks
 This is open source. Feel free to modify the code to your purposes but be warned, it may contain many bugs and may not work as it is.
 
 ## Acknowledgments
-I acknowledge God almighty and His Son Jesus Christ. Without their sustaining power none of this would be possible. I acknowledge those who came before me, those Pioneers in this fascinating field.
+I acknowledge God almighty and His Son Jesus Christ. Without their sustaining power none of this would be possible. I acknowledge those who came before me, those Pioneers in this fascinating field. Those who worked diligently to give us this technological wonder.
