@@ -50,7 +50,8 @@ typedef struct stack_s
  \* Description: opcode and its function
  \* for stack, queues, LIFO, FIFO
  \*/
- '''c
+
+'''c
 typedef struct instruction_s
 {
         char *opcode;
