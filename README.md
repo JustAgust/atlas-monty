@@ -41,7 +41,7 @@ typedef struct stack_s
 '''
 #### Second struct
 
-'''c
+
 /**
  \* struct instruction_s - opcode and its function
  \* @opcode: the opcode
@@ -50,6 +50,7 @@ typedef struct stack_s
  \* Description: opcode and its function
  \* for stack, queues, LIFO, FIFO
  \*/
+ '''c
 typedef struct instruction_s
 {
         char *opcode;
