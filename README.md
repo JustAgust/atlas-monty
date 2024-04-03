@@ -22,7 +22,8 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 We are to use the following data structures and include them in our header file monty.h.
 
 #### First struct
-'''/**
+'''c
+/**
  \* struct stack_s - doubly linked list representation of a stack (or queue)
  \* @n: integer
  \* @prev: points to the previous element of the stack (or queue)
@@ -36,10 +37,11 @@ typedef struct stack_s
         int n;
         struct stack_s *prev;
         struct stack_s *next;
-} stack_t;'''
+} stack_t;
 
 #### Second struct
-'''/**
+'''c
+/**
  \* struct instruction_s - opcode and its function
  \* @opcode: the opcode
  \* @f: function to handle the opcode
@@ -51,7 +53,7 @@ typedef struct instruction_s
 {
         char *opcode;
         void (*f)(stack_t **stack, unsigned int line_number);
-} instruction_t;'''
+} instruction_t;
 
 ## Author
 Chase Sparks
