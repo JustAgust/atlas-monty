@@ -32,13 +32,13 @@ We are to use the following data structures and include them in our header file 
 * Description: doubly linked list node structure
 * for stack, queues, LIFO, FIFO
 */
-typedef struct stack_s
-{
-        int n;
-        struct stack_s *prev;
-        struct stack_s *next;
-} stack_t;
-'''
+    typedef struct stack_s
+    {
+    int n;
+    struct stack_s *prev;
+    struct stack_s *next;
+    } stack_t;
+
 #### Second struct
 
 
