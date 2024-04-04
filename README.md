@@ -18,6 +18,13 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 - All your header files should be include guarded
 - You are expected to do the tasks in the order shown in the project
 
+
+#### Compile & Ouput
+- $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+- Any output must be printed on stdout
+- Any error message must be printed on stderr.
+
+
 ### Data structures
 We are to use the following data structures and include them in our header file monty.h.
 
@@ -64,7 +71,7 @@ We are to use the following data structures and include them in our header file 
 Chase Sparks
 
 ## License
-This is open source. Feel free to modify the code to your purposes but be warned, it may contain many bugs and may not work as it is.
+This is a school project and merely for example and demonstration purpose, be warned, it may contain many bugs and may not work as it is.
 
 ## Acknowledgments
 I acknowledge God almighty and His Son Jesus Christ. Without their sustaining power none of this would be possible. I acknowledge those who came before me, those Pioneers in this fascinating field. Those who worked diligently to give us this technological wonder.
