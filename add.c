@@ -19,7 +19,7 @@ void add(stack_t **stack, unsigned int line_number)
     }
 
     sum = temp->n + temp->next->n;/*adds two nodes*/
-    temp->next->n = sum;/* updates value of next node*/
-    *stack = temp->next;/* updates stack pointer to next*/
+    temp->next->n = sum;/*updates value of next node*/
+    *stack = temp->next;/*updates stack pointer to next*/
     free(temp);/*frees memory of current node*/
 }

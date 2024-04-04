@@ -8,6 +8,7 @@
 
 void nop(stack_t **stack, unsigned int line_number)
 {
-    (void) stack;
-    (void) line_number;
+    /*used as a place holder for no-op instruction*/
+    (void) stack;/*Suppress unused param*/
+    (void) line_number;/*Suppress unused param*/
 }
