@@ -11,7 +11,7 @@ int check_digit(char *token)
 
     if (token == NULL)
     return (1);
-    if (token[0] == '-');
+    if (token[0] == '-')
     i = 1;
     for (; token[i] != '\0'; i++)
     {
