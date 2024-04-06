@@ -47,4 +47,5 @@ void add(stack_t **stack, unsigned int line_number);
 int exec_handler(char *opcode, stack_t **stack, unsigned int line_number);
 void free_stack(stack_t *head);
 void free_all(char *line, stack_t *stack, FILE *file);
+int check_digit(char *token);
 #endif
