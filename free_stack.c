@@ -8,7 +8,7 @@ void free_stack(stack_t *head)
 {
 	stack_t *s;
 
-    s = head;
+	s = head;
 	while (s)
 	{
 		s = s->next;
