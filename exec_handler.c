@@ -13,8 +13,8 @@ int exec_handler(char *opcode, stack_t **stack, unsigned int line_number)
 		{"push", push},
 		{"pall", pall},
 		{"pint", pint},
-		/*{"pop", pop},
-		  {"swap", swap},*/
+		{"pop", pop},
+		{"swap", swap},
 		{"add", add},
 		{"nop", nop},
 		{NULL, NULL},
