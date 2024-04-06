@@ -9,12 +9,11 @@
 void pall(stack_t **stack, unsigned int line_number)
 {
     stack_t *s;
+    
     (void)line_number;
-
     s = *stack;
 
-    if (s)
-    while (s)
+    while (s != NULL)
     {
         printf("%d\n", s->n);
         s = s->next;
