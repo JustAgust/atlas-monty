@@ -8,7 +8,7 @@
  */
 int exec_handler(char *opcode, stack_t **stack, unsigned int line_number)
 {
-	/*define array of instruct struct*/
+
 	instruction_t instructions[] = {
 		{"push", push},
 		{"pall", pall},
@@ -21,7 +21,7 @@ int exec_handler(char *opcode, stack_t **stack, unsigned int line_number)
 	};
 	int i = 0;
 
-	/*search for the opcode*/
+
 	while (instructions[i].opcode)
 	{
 		if (strcmp(opcode, instructions[i].opcode) == 0)
