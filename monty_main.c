@@ -2,7 +2,7 @@
 /**
  * main - entry point to test functions
  * @argc: number of args
- * @argc: arguments
+ * @argv: arguments
  *Return: EXIT_SUCCESS or EXIT_FAILURE
  */
 int main(int argc, char *argv[])

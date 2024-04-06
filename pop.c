@@ -3,7 +3,7 @@
 /**
  * pop - "pops" from top of stack
  * @stack: pointer to stack
- * line_number: line index
+ * @line_number: line index
  * Return: void
  */
 void pop(stack_t **stack, unsigned int line_number)
