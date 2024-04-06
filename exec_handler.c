@@ -18,8 +18,9 @@ int exec_handler(char *opcode, stack_t **stack, unsigned int line_number)
         {"add", add},
         {"nop", nop},
         {NULL, NULL},
-    }
+    };
     int i = 0;
+
     /*search for the opcode*/
     while (instructions[i].opcode)
     {
@@ -28,7 +29,8 @@ int exec_handler(char *opcode, stack_t **stack, unsigned int line_number)
             instructions[i].f(stack, line_number);
             return (1);
         }
-        i++
+        i++;
     }
+
     return (0);
 }
