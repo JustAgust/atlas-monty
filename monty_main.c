@@ -3,7 +3,7 @@
  * main - entry point to test functions
  * @argc: number of args
  * @argc: arguments
- * Return: EXIT_SUCCESS or EXIT_FAILURE
+ *Return: EXIT_SUCCESS or EXIT_FAILURE
 */
 int main(int argc, char *argv[])
 {
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     file = fopen(argv[1], "r");/*can file be opened, error handling if no*/
     if (file == NULL)
     {
-        fprintf(stderr, "Error: Can't open file %s\n, argv[1]");/*see readme*/
+        fprintf(stderr, "Error: Can't open file %s\n", argv[1]);/*see readme*/
         return (EXIT_FAILURE);/*see readme*/
     }
     while (getline(&line, &len, file) != -1)/*read lines from file*/
