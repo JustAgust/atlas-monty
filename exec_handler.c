@@ -3,7 +3,7 @@
  * exec_handler - get the opcode
  * @opcode: opcode
  * @stack: pointer to the stack
- * @line_number: index
+ * @line_number: line index
  * Return: 1 if success, 0 if opcode
  */
 int exec_handler(char *opcode, stack_t **stack, unsigned int line_number)

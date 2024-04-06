@@ -3,13 +3,13 @@
 /**
  * pall - prints the stack
  * @stack: pointer to top of stack
- * @line_number: Line number (unused)
+ * @line_number: Line index (unused)
  * Return: void
 */
 void pall(stack_t **stack, unsigned int line_number)
 {
     stack_t *s;
-    
+
     (void)line_number;
     s = *stack;
 

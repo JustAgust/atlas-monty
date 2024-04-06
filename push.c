@@ -3,7 +3,7 @@
 /**
  * push - opcode for pushing to stack
  * @stack: pointer to top of the stack
- * @line_number: number of lines
+ * @line_number: line index
  * Return: void
 */
 void push(stack_t **stack, unsigned int line_number)
