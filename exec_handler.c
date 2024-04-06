@@ -11,10 +11,10 @@ int exec_handler(char *opcode, stack_t **stack, unsigned int line_number)
     /*define array of instruct struct*/
     instruction_t instructions[] = {
         {"push", push},
-        {"pall", pall},
+        /*{"pall", pall},
         {"pint", pint},
         {"pop", pop},
-        {"swap", swap},
+        {"swap", swap},*/
         {"add", add},
         {"nop", nop},
         {NULL, NULL},
